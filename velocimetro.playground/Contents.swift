@@ -44,5 +44,5 @@ auto.velocidad                  // ASIGNAMOS A LA CLASE auto LA VARIABLE CREADA 
 
 for i in 1.stride(through: 20, by: 1) {         // ITERAMOS 20 VECES LAS VELOCIDADES.
     var resultado = auto.cambioDeVelocidad()    // CREAMOS UNA VARIABLE QUE RECOJA LA FUNCIÓN DE LA CLASE
-    print("Velocidad:",resultado.actual, resultado.velocidadEnCadena)
+    print("Velocidad:",resultado.actual, "Velocidad en cadena:", resultado.velocidadEnCadena)
 }
