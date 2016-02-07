@@ -39,7 +39,7 @@ class Auto {
 }
 
 var auto: Auto = Auto()         // CREAMOS UNA INSTNCIA DE LA CLASE AUTO
-auto.velocidad                  // ASIGNAMOS A LA CLASE auto LA VARIABLE CREADA EN LA SUPER CLASE, velocidad
+auto.velocidad                  
 
 
 for i in 1.stride(through: 20, by: 1) {         // ITERAMOS 20 VECES LAS VELOCIDADES.
